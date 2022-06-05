@@ -1,4 +1,4 @@
-# Portfolio Research
+## Portfolio Research
 
 ### What Makes an Effective Portfolio?
 
@@ -14,7 +14,6 @@ This portion of the portfolio may be the most important as it is what the person
 - **Create it with what you know:**
 One of the biggest showcases of your skill is how you create your portfolio. Creating a portfolio using the tools you list is a great opportunity to show the employer looking that you know what you are doing.
 
-<br>
 
 ### Understanding the audience being targeted
 
@@ -24,49 +23,36 @@ Bigger companies tend to be more well organized than a small company or startup.
 - **Bigger Teams:**   
 Being part of a bigger team may provide more opportunites for mentorship and growth whereas smaller companies may not always have that as you may be in very small teams with less resources. 
 
+<br>
 
-# Portfolio Outline
+## Portfolio Outline
 
 ### Audience
 For my portfolio target audience, I will be going towards a **medium - large company**. My ideal audience is a midsize company that can offer some of the benefits of a large company while still maintaining a somewhat smaller scale as opposed to FAANG.
 
-<br>
+### Tech Stack
+For this portfolio I will be using the MERN stack.
 
---
+- **React js**
+- **Node.js**
+- **Express.js**
+- **MongoDB**
 
-### Projects
-The projects that will be included in my portfolio include:
+### Pages
+**Homepage:**      
+The Homepage will provide a brief overview about myself and a call to action to my contact page
+
+**About:**    
+The About page will provide more detail about myself and my skills. This page will also contain details on how to contact me and my resume.
+
+**Projects:**    
+The Projects page will showcase projects that I have completed over my time at full sail and that i feel show what skills i have learned. The projects I will be including are: 
 
 - [x] Ontrac Fitness Tracker
 - [x] Event Finder
 - [x] Quiz App
 - [x] Gym Site
 
-<br>
-
---
-
-### Tech Stack
-These are the tools that I will use to create my portfolio and that also align with what type of position I would like.
-
-- React js
-- Node
-- MongoDB
-
-
-<br>
-
---
-
-### Pages
-**Homepage**
-The Homepage will provide a brief overview about myself and a call to action to my contact page
-
-**About**
-The About page will provide more detail about myself and my skills. This page will also contain details on how to contact me and my resume.
-
-**Projects**
-The Projects page will showcase projects that I have completed over my time at full sail and that i feel show what skills i have learned. 
 
 <br>
 
