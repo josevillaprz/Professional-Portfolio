@@ -30,6 +30,8 @@ Being part of a bigger team may provide more opportunites for mentorship and gro
 ### Audience
 For my portfolio target audience, I will be going towards a **medium - large company**. My ideal audience is a midsize company that can offer some of the benefits of a large company while still maintaining a somewhat smaller scale as opposed to FAANG.
 
+<br>
+
 ### Tech Stack
 For this portfolio I will be using the MERN stack.
 
@@ -38,6 +40,8 @@ For this portfolio I will be using the MERN stack.
 - **Express.js**
 - **MongoDB**
 
+<br>
+
 ### Pages
 **Homepage:**      
 The Homepage will provide a brief overview about myself and a call to action to my contact page
@@ -45,13 +49,28 @@ The Homepage will provide a brief overview about myself and a call to action to 
 **About:**    
 The About page will provide more detail about myself and my skills. This page will also contain details on how to contact me and my resume.
 
-**Projects:**    
-The Projects page will showcase projects that I have completed over my time at full sail and that i feel show what skills i have learned. The projects I will be including are: 
+**Projects:**   
+The Projects page will showcase projects that I have completed over my time at full sail and that i feel show what skills i have learned. Project demos will provided as well as the link to the git hub repo. The projects I will be including are: 
 
-- [x] Ontrac Fitness Tracker
-- [x] Event Finder
-- [x] Quiz App
-- [x] Gym Site
+**Ontrac Fitness Tracker**.   
+
+- 80% complete needs finishing touches. 
+- node, mysql, reactjs
+
+**Event Finder**.   
+
+- 90% complete needs finishing styling
+- Reactjs
+
+**Quiz App**.   
+
+- 100% completed
+- node, mysql, reactjs
+
+**Gym Site**.   
+ 
+- 100% completed
+- vanilla javascript
 
 
 <br>
