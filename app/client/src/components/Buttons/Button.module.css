@@ -1,0 +1,15 @@
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(49, 169, 185, 1) 0%, rgba(83, 230, 85, 1) 100%);
+}
+
+.icon {
+    margin-right: 10px;
+}

@@ -1,0 +1,70 @@
+.container {
+    padding: 60px;
+    background-color: #100F1A;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* TYPOGRAPHY */
+.label, .text, .name, .navLink {
+    color: #FFF;
+}
+
+.label, .name {
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.text, .navLink {
+    font-weight: 200;
+}
+
+.label {
+    margin-bottom: 30px;
+}
+
+
+/* LOGO SECTION */
+.logoSection {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+/* CONTACT SECTION */
+.icon {
+    color: #FFF;
+    margin-right: 15px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+/* SITEMAP SECTION*/
+.linkList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50%;
+    row-gap: 30%;
+}
+
+
+/* FOLLOW ME SECTION*/
+.socialList {
+    display: flex;
+}
+
+.link {
+    margin-right: 15px;
+}

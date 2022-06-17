@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    height: 120px;
+    padding: 0px 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 56px;
+}
+
+.list {
+    display: flex;
+}
+
+.link, .activeLink {
+    margin-left: 60px;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.link {
+    color: #535355;
+}
+
+.activeLink {
+    color: #DE679B;
+}
