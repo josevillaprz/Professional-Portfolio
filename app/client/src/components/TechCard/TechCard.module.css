@@ -1,0 +1,17 @@
+.container {
+    max-width: 200px;
+}
+
+.img {
+    margin-bottom: 10px;
+    width: 64px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.body {
+    font-weight: 300;
+}

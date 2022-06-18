@@ -1,0 +1,42 @@
+/* LAYOUT */
+.mainContainer {
+    padding: 40px 80px 200px 80px;
+}
+
+.aboutSection {
+    margin: 50px 0 120px 0;
+    display: flex;
+}
+
+/* TYPOGRAPHY */
+.h1 {
+    display: inline;
+    font-size: 5rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgba(190, 79, 211, 1) 0%, rgba(251, 125, 101, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h2 {
+    margin-bottom: 40px;
+}
+
+.subheading {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.body {
+    color: #535355;
+    font-weight: 300;
+    margin-bottom: 20px;
+    max-width: 80%;
+}
+
+/* IMAGE */
+.img {
+    border-radius: 50%;
+    border: solid 2px #100F1A;
+    filter: grayscale(100%);
+}
