@@ -5,12 +5,11 @@ html {
   font-size: 62.5%;
 }
 
-
 /* * {
   outline: 1px solid red
 } */
 
-body, div, button, h1, ul, li, a, p, address {
+body, div, button, h1, h2, ul, li, a, p, address, textarea, input {
   margin: 0;
   padding: 0;
   font-family: "Poppins", Helvetica, Arial;
@@ -19,7 +18,8 @@ body, div, button, h1, ul, li, a, p, address {
   list-style: none;
   text-decoration: none;
   font-style: normal;
-
+  cursor: default;
+  outline: none;
 }
 
 body {

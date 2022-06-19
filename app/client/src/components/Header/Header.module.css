@@ -8,6 +8,7 @@
 
 .logo {
     width: 56px;
+    cursor: pointer;
 }
 
 .list {
@@ -22,6 +23,7 @@
 
 .link {
     color: #535355;
+    cursor: pointer;
 }
 
 .activeLink {

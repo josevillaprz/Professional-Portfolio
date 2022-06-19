@@ -5,6 +5,11 @@
 .img {
     margin-bottom: 10px;
     width: 64px;
+    transition: transform .3s ease-out
+}
+
+.img:hover {
+    transform: rotate(10deg);
 }
 
 .title {

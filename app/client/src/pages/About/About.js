@@ -2,21 +2,22 @@ import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Button from "../../components/Buttons/Button";
+import H1 from "../../components/H1/H1";
 import TechList from "../../components/TechList/TechList";
+import profilePic from "../../assets/images/headshot.webp";
 import { HiOutlineDownload } from "react-icons/hi";
 import styles from "./About.module.css";
+import H2 from "../../components/H2/H2";
 
 const About = () => {
   return (
     <div>
       <Header />
       <main className={styles.mainContainer}>
-        <h1 className={styles.h1}>About me</h1>
+        <H1 text="About" />
         <section className={styles.aboutSection}>
           <div>
-            <p className={styles.subheading}>
-              Hello, my name is Jose Villaperez
-            </p>
+            <H2 text="Hello, my name is Jose Villaperez" />
             <p className={styles.body}>
               I'm a full-stack web developer and UI/UX enthusiast from Nampa,
               ID. I recently graduated from Full Sail University where I earned
@@ -46,7 +47,7 @@ const About = () => {
           </div>
           <div>
             <img
-              src="https://placekitten.com/300/300"
+              src={profilePic}
               alt="jose villaperez web developer"
               className={styles.img}
             />

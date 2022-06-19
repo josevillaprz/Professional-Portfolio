@@ -1,0 +1,30 @@
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.container {
+    width: 100%;
+}
+
+.textInput, .messageInput {
+    padding: 5px;
+    cursor: text;
+    max-width: 80%;
+}
+
+.textInput {
+    height: 30px;
+}
+
+.messageInput {
+    height: 80px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 1.8rem;
+}

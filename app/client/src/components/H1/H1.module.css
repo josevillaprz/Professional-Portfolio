@@ -1,0 +1,8 @@
+.h1 {
+    display: inline;
+    font-size: 5rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgba(190, 79, 211, 1) 0%, rgba(251, 125, 101, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

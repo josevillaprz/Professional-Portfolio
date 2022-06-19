@@ -27,7 +27,7 @@ const TechList = () => {
       <li>
         <TechCard
           title="HTML5"
-          body="Defines the meaning and structure of web content"
+          body="Defines the meaning and structure of web content."
           src={html}
         />
       </li>
@@ -48,7 +48,7 @@ const TechList = () => {
       <li>
         <TechCard
           title="Node JS"
-          body="Useful for developing servers for applications"
+          body="Useful for developing servers for applications."
           src={node}
         />
       </li>
@@ -72,12 +72,12 @@ const TechList = () => {
       <li>
         <TechCard
           title="Illustrator"
-          body="Tool used to create graphic assets"
+          body="Tool used to create vector graphic assets."
           src={illustrator}
         />
       </li>
       <li>
-        <TechCard title="XD" body="Tool for designing UI mockups" src={xd} />
+        <TechCard title="XD" body="Tool for designing UI mockups." src={xd} />
       </li>
     </ul>
   );
