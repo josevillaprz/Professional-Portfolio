@@ -1,16 +1,18 @@
 import React from "react";
 import styles from "./Button.module.css";
 
-const Button = ({ text, icon, type, variant, handler }) => {
+const Button = ({ text, icon, type, variant, handler, src, download }) => {
   return (
-    <button
+    <a
       type={type}
       onClick={handler}
       className={variant === "outline" ? styles.outline : styles.btn}
+      href={src}
+      download={download}
     >
       {icon}
       {text}
-    </button>
+    </a>
   );
 };
 

@@ -5,6 +5,7 @@ import styles from "./Home.module.css";
 import Button from "../../components/Buttons/Button";
 import { HiOutlineDownload } from "react-icons/hi";
 import Character from "../../assets/graphics/character.svg";
+// import File from "../../assets/data/JoseVillaResumeResume.pdf";
 
 const Home = () => {
   return (
@@ -25,6 +26,8 @@ const Home = () => {
           <Button
             text="Resume"
             icon={<HiOutlineDownload size={20} style={{ marginRight: "5" }} />}
+            src="/JoseVillaResumeResume.pdf"
+            download="JoseVillaResumeResume"
           />
         </section>
         <section className={styles.imgContainer}>

@@ -43,6 +43,8 @@ const About = () => {
               icon={
                 <HiOutlineDownload size={20} style={{ marginRight: "5" }} />
               }
+              src="/JoseVillaResumeResume.pdf"
+              download="JoseVillaResumeResume"
             />
           </div>
           <div>
