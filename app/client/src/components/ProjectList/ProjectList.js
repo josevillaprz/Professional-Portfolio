@@ -2,14 +2,21 @@ import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import styles from "./ProjectList.module.css";
 
-const ProjectList = () => {
+const ProjectList = ({ projects }) => {
   return (
     <ul className={styles.container}>
-      <li>
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-      </li>
+      {projects.map((project, index) => (
+        <li key={index}>
+          <ProjectCard
+            title={project.title}
+            description={project.description}
+            tags={project.tags}
+            img={project.image}
+            link={project.demoLink}
+            code={project.codeLink}
+          />
+        </li>
+      ))}
     </ul>
   );
 };

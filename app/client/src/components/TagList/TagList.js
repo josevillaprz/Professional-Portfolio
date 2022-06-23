@@ -2,18 +2,14 @@ import React from "react";
 import Tag from "../Tag/Tag";
 import styles from "./TagList.module.css";
 
-const TagList = ({ names }) => {
+const TagList = ({ tags }) => {
   return (
     <ul className={styles.container}>
-      <li>
-        <Tag name="React" />
-      </li>
-      <li>
-        <Tag name="Node" />
-      </li>
-      <li>
-        <Tag name="Html" />
-      </li>
+      {tags.map((tag, index) => (
+        <li key={index}>
+          <Tag name={tag} />
+        </li>
+      ))}
     </ul>
   );
 };
