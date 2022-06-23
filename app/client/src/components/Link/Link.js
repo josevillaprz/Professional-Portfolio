@@ -1,13 +1,16 @@
 import React from "react";
-import styles from "./Button.module.css";
+import styles from "./Link.module.css";
 
-const Button = ({ text, icon, type, variant, src, download }) => {
+const Link = ({ text, icon, type, variant, src, download }) => {
   return (
     <a
       type={type}
       className={variant === "outline" ? styles.outline : styles.btn}
       href={src}
       download={download}
+      data-aos="flip-right"
+      data-aos-easing="ease-in-out-back"
+      data-aos-duration="1000"
     >
       {icon}
       {text}
@@ -15,4 +18,4 @@ const Button = ({ text, icon, type, variant, src, download }) => {
   );
 };
 
-export default Button;
+export default Link;

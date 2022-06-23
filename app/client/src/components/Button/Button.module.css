@@ -1,0 +1,25 @@
+.container {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-right: 20px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    user-select: none;
+    transition: box-shadow 0.2s ease-out;
+    color: #fff;
+    letter-spacing: .6px;
+    background: linear-gradient(90deg, rgba(49, 169, 185, 1) 0%, rgba(83, 230, 85, 1) 100%);
+}
+
+.container:hover {
+    box-shadow: -3px 3px 6px 0px rgb(203, 203, 203);
+}
+
+.container:active {
+    box-shadow: none;
+    transform: translateY(1px)
+}

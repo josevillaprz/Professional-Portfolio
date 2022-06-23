@@ -7,19 +7,34 @@ import H2 from "../../components/H2/H2";
 import Form from "../../components/Form/Form";
 import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import LinkList from "../../components/LinkList/LinkList";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
     <div>
+      <Helmet>
+        <meta content="Web Developer Portfolio" />
+        <title>Jose Villaperez | Contact</title>
+      </Helmet>
       <Header />
       <main className={styles.mainContainer}>
         <H1 text="Contact" />
         <H2 text="Looking forward to hearing from you!" />
         <div className={styles.container}>
-          <section className={styles.formSection}>
+          <section
+            className={styles.formSection}
+            data-aos="fade-down"
+            data-aos-easing="ease-in-out-back"
+            data-aos-duration="1000"
+          >
             <Form />
           </section>
-          <section className={styles.listSection}>
+          <section
+            className={styles.listSection}
+            data-aos="fade-left"
+            data-aos-easing="ease-in-out-back"
+            data-aos-duration="1000"
+          >
             <ul>
               <li className={styles.item}>
                 <FaPhoneAlt className={styles.icon} size={30} />

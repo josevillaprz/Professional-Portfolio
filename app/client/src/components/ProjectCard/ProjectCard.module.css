@@ -1,5 +1,6 @@
 /* LAYOUT */
 .container {
+    min-height: 360px;
     display: flex;
     justify-content: space-between;
     padding: 30px;

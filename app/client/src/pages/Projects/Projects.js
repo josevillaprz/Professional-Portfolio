@@ -8,6 +8,7 @@ import ontracImg from "../../assets/images/ontrac.webp";
 import quiz from "../../assets/images/quiz.webp";
 import headliner from "../../assets/images/headliner.webp";
 import origin from "../../assets/images/origin.webp";
+import { Helmet } from "react-helmet";
 
 const projectData = [
   {
@@ -25,7 +26,7 @@ const projectData = [
       "Headliner is a music event search app. This was built alongside the Ticket Master API. The user can search keywords for concert events in their area or by artist.",
     tags: ["React", "CSS", "HTML"],
     image: headliner,
-    demoLink: "https://josevillaprz.github.io/headliner-app/#/",
+    demoLink: "https://josevillaprz.github.io/headliner-app/",
     codeLink: "https://github.com/josevillaprz/headliner-app",
   },
   {
@@ -51,6 +52,10 @@ const projectData = [
 const Projects = () => {
   return (
     <div>
+      <Helmet>
+        <meta content="Web Developer Portfolio" />
+        <title>Jose Villaperez | Projects</title>
+      </Helmet>
       <Header />
       <main className={styles.mainContainer}>
         <H1 text="Projects" />

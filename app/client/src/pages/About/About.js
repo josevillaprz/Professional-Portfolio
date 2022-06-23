@@ -1,17 +1,22 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import Button from "../../components/Buttons/Button";
+import Link from "../../components/Link/Link";
 import H1 from "../../components/H1/H1";
 import TechList from "../../components/TechList/TechList";
 import profilePic from "../../assets/images/headshot.webp";
 import { HiOutlineDownload } from "react-icons/hi";
 import styles from "./About.module.css";
 import H2 from "../../components/H2/H2";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <div>
+      <Helmet>
+        <meta content="Web Developer Portfolio" />
+        <title>Jose Villaperez | About</title>
+      </Helmet>
       <Header />
       <main className={styles.mainContainer}>
         <H1 text="About" />
@@ -38,7 +43,7 @@ const About = () => {
               looking for a web developer, please download my resume below or
               head on over to my contact page to send me a message!
             </p>
-            <Button
+            <Link
               text="Resume"
               icon={
                 <HiOutlineDownload size={20} style={{ marginRight: "5" }} />
@@ -47,7 +52,11 @@ const About = () => {
               download="JoseVillaResumeResume"
             />
           </div>
-          <div>
+          <div
+            data-aos="flip-up"
+            data-aos-easing="ease-in-out-back"
+            data-aos-duration="1500"
+          >
             <img
               src={profilePic}
               alt="jose villaperez web developer"

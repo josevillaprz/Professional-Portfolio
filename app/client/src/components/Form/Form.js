@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Form.module.css";
 import Confirm from "../Confirm/Confirm";
+import Button from "../Button/Button";
 import emailjs from "emailjs-com";
 import { BiMessageError } from "react-icons/bi";
 
@@ -116,8 +117,7 @@ const Form = () => {
               </span>
             )}
           </div>
-          {/* <Button text="Send" type="submit" /> */}
-          <button type="submit">send</button>
+          <Button text="Send" type="submit" />
         </form>
       )}
     </>
