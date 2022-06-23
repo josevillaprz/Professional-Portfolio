@@ -54,6 +54,7 @@
     background: linear-gradient(90deg, rgba(49, 169, 185, 1) 0%, rgba(83, 230, 85, 1) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 5rem;
 }
 
 .strong {
