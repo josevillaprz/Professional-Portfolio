@@ -11,7 +11,7 @@
 .textInput, .messageInput {
     padding: 5px;
     cursor: text;
-    max-width: 80%;
+    min-width: 250px;
 }
 
 .textInput {

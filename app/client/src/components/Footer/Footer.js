@@ -25,7 +25,7 @@ const Footer = () => {
       {/* CONTACT SECTION */}
       <section className={styles.contactSection}>
         <p className={styles.label}>Contact</p>
-        <ul>
+        <ul className={styles.contactList}>
           <li className={styles.item}>
             <FaPhoneAlt className={styles.icon} size={18} />
             <address className={styles.text}>jose.villaprz@gmail.com</address>

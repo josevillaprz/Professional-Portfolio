@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/icons/logo-black.svg";
 import { Link, NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
+import { FiMenu } from "react-icons/fi";
 
 const Header = () => {
+  const [showLinks, setShowLinks] = useState(false);
+
   return (
     <header className={styles.container}>
       <Link to="/">
         <img src={logo} alt="logo" className={styles.logo} />
       </Link>
-      <ul className={styles.list}>
+      <ul className={showLinks ? styles.open : ""}>
         <li>
           <NavLink
             to="/"
@@ -51,6 +54,13 @@ const Header = () => {
           </NavLink>
         </li>
       </ul>
+      <button
+        onClick={() => {
+          setShowLinks(!showLinks);
+        }}
+      >
+        <FiMenu size={32} />
+      </button>
     </header>
   );
 };

@@ -6,7 +6,11 @@ import H2 from "../H2/H2";
 
 const ProjectCard = ({ title, description, tags, img, link, code }) => {
   return (
-    <article className={styles.container} data-aos="flip-up">
+    <article
+      className={styles.container}
+      data-aos="flip-up"
+      data-aos-delay="300"
+    >
       <div className={styles.textContainer}>
         <H2 text={title} />
         <p className={styles.body}>{description}</p>

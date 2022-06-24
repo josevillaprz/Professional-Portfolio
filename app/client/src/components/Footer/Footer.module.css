@@ -3,7 +3,9 @@
     background-color: #100F1A;
     color: #FFF;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 
@@ -22,7 +24,7 @@
 }
 
 .label {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 
@@ -30,6 +32,7 @@
 .logoSection {
     display: flex;
     align-items: flex-start;
+    max-width: 100%;
 }
 
 .logo {
@@ -39,6 +42,12 @@
 
 
 /* CONTACT SECTION */
+.contactList {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%
+}
+
 .icon {
     color: #FFF;
     margin-right: 15px;
@@ -52,6 +61,10 @@
 
 
 /* SITEMAP SECTION*/
+.navSection {
+    max-width: 100%;
+}
+
 .linkList {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,10 +74,34 @@
 
 
 /* FOLLOW ME SECTION*/
+.linkSection {
+    max-width: 100%
+}
+
 .socialList {
     display: flex;
 }
 
 .link {
     margin-right: 15px;
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        padding: 60px 20px;
+        flex-direction: column;
+    }
+
+    .logoSection, .contactList, .navSection {
+        margin-bottom: 60px;
+    }
+
+    .label, .item, address, .navLink {
+        font-size: 1.4rem;
+    }
+
+    .linkList {
+        width: 50%;
+    }
+
 }

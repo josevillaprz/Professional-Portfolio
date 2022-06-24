@@ -17,10 +17,13 @@ const Contact = () => {
         <title>Jose Villaperez | Contact</title>
       </Helmet>
       <Header />
+      {/* Main container */}
       <main className={styles.mainContainer}>
         <H1 text="Contact" />
         <H2 text="Looking forward to hearing from you!" />
+        {/* Container */}
         <div className={styles.container}>
+          {/* Form section */}
           <section
             className={styles.formSection}
             data-aos="fade-down"
@@ -29,21 +32,22 @@ const Contact = () => {
           >
             <Form />
           </section>
+          {/* Contact details section */}
           <section
             className={styles.listSection}
             data-aos="fade-left"
             data-aos-easing="ease-in-out-back"
             data-aos-duration="1000"
           >
-            <ul>
+            <ul className={styles.detailsList}>
               <li className={styles.item}>
-                <FaPhoneAlt className={styles.icon} size={30} />
+                <FaPhoneAlt className={styles.icon} size={25} />
                 <address className={styles.address}>
                   jose.villaprz@gmail.com
                 </address>
               </li>
               <li className={styles.item}>
-                <FaEnvelope className={styles.icon} size={30} />
+                <FaEnvelope className={styles.icon} size={25} />
                 <address className={styles.address}>
                   {"+1 (208) 600-3097"}
                 </address>

@@ -10,6 +10,11 @@
     display: flex;
 }
 
+.textContainer {
+    width: 60%
+}
+
+
 /* TYPOGRAPHY */
 .h2 {
     margin-bottom: 40px;
@@ -19,7 +24,7 @@
     color: #535355;
     font-weight: 300;
     margin-bottom: 20px;
-    max-width: 80%;
+    width: 90%
 }
 
 /* IMAGE */
@@ -28,4 +33,34 @@
     border: solid 2px #100F1A;
     filter: grayscale(100%);
     width: 300px;
+    margin-bottom: 30px;
+    justify-self: flex-end;
+}
+
+/* MOBILE */
+@media screen and (max-width: 760px) {
+    .mainContainer {
+        padding: 40px 20px 0 20px;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .techSection {
+        height: 1200px;
+    }
+
+    .aboutSection {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .img {
+        width: 200px;
+    }
+
+    .body {
+        width: 100%;
+    }
 }

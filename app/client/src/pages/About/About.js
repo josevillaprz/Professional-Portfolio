@@ -21,7 +21,7 @@ const About = () => {
       <main className={styles.mainContainer}>
         <H1 text="About" />
         <section className={styles.aboutSection}>
-          <div>
+          <div className={styles.textContainer}>
             <H2 text="Hello, my name is Jose Villaperez" />
             <p className={styles.body}>
               I'm a full-stack web developer and UI/UX enthusiast from Nampa,
@@ -53,6 +53,7 @@ const About = () => {
             />
           </div>
           <div
+            className={styles.imgContainer}
             data-aos="flip-up"
             data-aos-easing="ease-in-out-back"
             data-aos-duration="1500"
@@ -64,7 +65,7 @@ const About = () => {
             />
           </div>
         </section>
-        <section>
+        <section className={styles.techSection}>
           <h2 className={styles.h2}>Tech Stack</h2>
           <TechList />
         </section>
