@@ -12,6 +12,7 @@ const ProjectList = ({ projects }) => {
             description={project.description}
             tags={project.tags}
             img={project.image}
+            disableDemo={project.disableDemo}
             link={project.demoLink}
             code={project.codeLink}
           />

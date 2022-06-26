@@ -4,7 +4,15 @@ import styles from "./ProjectCard.module.css";
 import Link from "../Link/Link";
 import H2 from "../H2/H2";
 
-const ProjectCard = ({ title, description, tags, img, link, code }) => {
+const ProjectCard = ({
+  title,
+  description,
+  tags,
+  img,
+  link,
+  code,
+  disableDemo,
+}) => {
   return (
     <article
       className={styles.container}
@@ -16,7 +24,7 @@ const ProjectCard = ({ title, description, tags, img, link, code }) => {
         <p className={styles.body}>{description}</p>
         <TagList tags={tags} />
         <div className={styles.buttonGroup}>
-          <Link text="Demo" src={link} />
+          {link !== "/" && <Link text="Demo" src={link} />}
           <Link text="Code" variant="outline" src={code} />
         </div>
       </div>

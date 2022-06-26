@@ -18,7 +18,7 @@ const projectData = [
     tags: ["React", "MySQL", "NodeJs", "Express", "CSS", "HTML"],
     image: ontracImg,
     demoLink: "/",
-    codeLink: "https://github.com/ePortfolios/ontrac-app/tree/dev",
+    codeLink: "https://github.com/josevillaprz/ontrac-app",
   },
   {
     title: "Headliner",
