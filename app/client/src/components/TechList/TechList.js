@@ -13,6 +13,9 @@ import c from "../../assets/icons/c-sharp.svg";
 import illustrator from "../../assets/icons/illustrator.svg";
 import xd from "../../assets/icons/adobexd.svg";
 import mongo from "../../assets/icons/mongodb.svg";
+import bootstrap from "../../assets/icons/bootstrap.svg";
+import graphql from "../../assets/icons/graphql.svg";
+import figma from "../../assets/icons/figma.svg";
 
 const TechList = () => {
   return (
@@ -41,14 +44,21 @@ const TechList = () => {
       <li>
         <TechCard
           title="React JS"
-          body="Library for building interactive elements in web apps."
+          body="Javascript library for building user interfaces."
           src={react}
         />
       </li>
       <li>
         <TechCard
+          title="Bootstrap"
+          body="Responsive CSS Framework."
+          src={bootstrap}
+        />
+      </li>
+      <li>
+        <TechCard
           title="Node JS"
-          body="Useful for developing servers for applications."
+          body="Server side scripting language."
           src={node}
         />
       </li>
@@ -58,6 +68,9 @@ const TechList = () => {
           body="NoSQL database management system."
           src={mongo}
         />
+      </li>
+      <li>
+        <TechCard title="GraphQL" body="API query language." src={graphql} />
       </li>
       <li>
         <TechCard
@@ -72,12 +85,19 @@ const TechList = () => {
       <li>
         <TechCard
           title="Illustrator"
-          body="Tool used to create vector graphic assets."
+          body="Vector assests design tool."
           src={illustrator}
         />
       </li>
       <li>
-        <TechCard title="XD" body="Tool for designing UI mockups." src={xd} />
+        <TechCard title="XD" body="User interface design tool." src={xd} />
+      </li>
+      <li>
+        <TechCard
+          title="Figma"
+          body="User interface design tool."
+          src={figma}
+        />
       </li>
     </ul>
   );

@@ -8,6 +8,7 @@ import ontracImg from "../../assets/images/ontrac.webp";
 import quiz from "../../assets/images/quiz.webp";
 import headliner from "../../assets/images/headliner.webp";
 import origin from "../../assets/images/origin.webp";
+import sneakers from "../../assets/images/sneakers.webp";
 import { Helmet } from "react-helmet";
 
 const projectData = [
@@ -46,6 +47,15 @@ const projectData = [
     image: quiz,
     demoLink: "/",
     codeLink: "https://github.com/josevillaprz/quiz_app",
+  },
+  {
+    title: "E-commerce product page",
+    description:
+      "This project was a challenge created by Frontend Mentor. The project shows the ability to create a carousel and lightbox gallery. To complete this challenge I chose to create it using React JS.",
+    tags: ["React", "HTML", "CSS"],
+    image: sneakers,
+    codeLink: "https://github.com/josevillaprz/ecommerce-product-page",
+    demoLink: "https://josevillaprz.github.io/ecommerce-product-page/",
   },
 ];
 

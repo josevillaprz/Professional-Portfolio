@@ -24,32 +24,32 @@ const About = () => {
           <div className={styles.textContainer}>
             <H2 text="Hello, my name is Jose Villaperez" />
             <p className={styles.body}>
-              I'm a full-stack web developer and UI/UX enthusiast from Nampa,
-              ID. I recently graduated from Full Sail University where I earned
-              my bachelor's in Web Design & Development.
+              I am a web developer with three years of academic experience from
+              Full Sail University, where I earned my bachelor's in Web Design &
+              Development. I have a passion for creating clean and creative
+              designs while also creating accessible and responsive sites and
+              web applications.
             </p>
             <p className={styles.body}>
-              I've always been interested in technology, and I've always enjoyed
-              being creative. When I started building websites for my friends,
-              it quickly became clear that this was the perfect combination of
-              both things. My first love is front-end development, but I also
-              love diving into back-end development. I love working on teams
-              because it's always fun to see how everyone approaches a problem
-              differently.
+              I have experience in frontend development, backend development,
+              and design. My experience has allowed me to understand how each of
+              these components works together to create a cohesive product that
+              is easy to use and understand.
             </p>
             <p className={styles.body}>
-              When I'm not at my workspace coding and creating, you'll probably
-              find me writing music or spending time with my family. If you're
-              looking for a web developer, please download my resume below or
-              head on over to my contact page to send me a message!
+              I'm always looking for new ways to improve my work. I love
+              learning new technologies, always on the hunt for new tools and
+              resources that can help me do my job better. If you're looking for
+              a web developer, please download my resume below or head on over
+              to my contact page to send me a message!
             </p>
             <Link
               text="Resume"
               icon={
                 <HiOutlineDownload size={20} style={{ marginRight: "5" }} />
               }
-              src="/JoseVillaResumeResume.pdf"
-              download="JoseVillaResumeResume"
+              src="/JoseVillaperezResume.pdf"
+              download="JoseVillaperezResume"
             />
           </div>
           <div

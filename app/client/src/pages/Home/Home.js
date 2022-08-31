@@ -27,15 +27,14 @@ const Home = () => {
             {"\n"} a Web Developer
           </h1>
           <p className={styles.body}>
-            Based in <strong className={styles.strong}>Nampa, ID.</strong> I
-            build everything from small business websites to rich interactive
+            I build everything from small business websites to rich interactive
             web applications.
           </p>
           <Link
             text="Resume"
             icon={<HiOutlineDownload size={20} style={{ marginRight: "5" }} />}
-            src="/JoseVillaResumeResume.pdf"
-            download="JoseVillaResumeResume"
+            src="/JoseVillaperezResume.pdf"
+            download="JoseVillaperezResume"
           />
         </section>
         <section
