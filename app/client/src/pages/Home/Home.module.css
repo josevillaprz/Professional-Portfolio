@@ -8,6 +8,7 @@
 .img {
     max-height: 700px;
     max-width: 80%;
+    animation: blur 1.6s;
 }
 
 
@@ -43,6 +44,10 @@
     max-width: 600px;
 }
 
+h1 {
+    animation: blur 1.2s;
+}
+
 .subheading {
     font-weight: 200;
     font-size: 2.6rem;
@@ -66,6 +71,17 @@
     color: #535355;
     font-weight: 300;
     margin-bottom: 50px
+}
+
+/* ANIMATIONS */
+@keyframes blur {
+    0% {
+        filter: blur(10px)
+    }
+
+    100% {
+        filter: blur(0px)
+    }
 }
 
 /* Tablet */
