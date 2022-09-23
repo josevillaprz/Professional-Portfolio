@@ -15,7 +15,7 @@ const Header = () => {
       <ul className={showLinks ? styles.open : ""}>
         <li>
           <NavLink
-            to="/"
+            to="/home"
             className={({ isActive }) =>
               isActive ? styles.activeLink : styles.link
             }
