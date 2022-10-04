@@ -18,7 +18,7 @@ const projectData = [
       "Ontrac is an exercise tracker for weight lifting. This app utilizes full user authentication with hashed passwords and json web token. The user will be able to create and store exercises and workouts. This app shows my ability to create an application from planning to production.",
     tags: ["React", "MySQL", "NodeJs", "Express", "CSS", "HTML"],
     image: ontracImg,
-    demoLink: "/",
+    demoLink: "https://ontrac-fitness.herokuapp.com/",
     codeLink: "https://github.com/josevillaprz/ontrac-app",
   },
   {
